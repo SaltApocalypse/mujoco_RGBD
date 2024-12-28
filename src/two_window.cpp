@@ -212,7 +212,7 @@ void pointcloud_view()
 int main(int argc, char** argv)
 {
   char error[1000] = "Fail to load model";
-  const char* file = "/home/yinghao/.mujoco/mujoco210/camera_test/data/camera_test.xml";
+  const char *file = "/home/salta/mujoco_RGBD/data/camera_test.xml";
   model = mj_loadXML(file, 0, error, 1000);
   
   if (!model)

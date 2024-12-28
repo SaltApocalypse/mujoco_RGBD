@@ -3,7 +3,7 @@
 // email: gaoyinghao@xiaomi.com
 
 // MuJoCo header file
-#include "mujoco.h"
+#include "mujoco/mujoco.h"
 #include "glfw3.h"
 #include "cstdio"
 
@@ -24,7 +24,7 @@
 class RGBD_mujoco
 {
   private:
-    uchar* color_buffer;    // color buffer
+    uchar *color_buffer;  // color buffer
     float* depth_buffer;  // depth buffer
 
     cv::Mat color_image;
